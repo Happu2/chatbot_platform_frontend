@@ -7,9 +7,24 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+
+# Build output
 dist
 dist-ssr
+
+# Environment variables
+.env
+.env.*
+
+# Deployment
+.netlify
+.vercel
+
+# Cache / coverage
+coverage
+.cache
 *.local
 
 # Editor directories and files
