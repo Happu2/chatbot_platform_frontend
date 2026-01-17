@@ -80,7 +80,7 @@ export default function Chat() {
         <input
           type="text"
           className="input flex-1"
-          placeholder="Ask something about SQL..."
+          placeholder="Ask something about ..."
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && sendMessage()}
